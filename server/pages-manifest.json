@@ -1,0 +1,20 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.html",
+  "/multiple": "pages/multiple.html",
+  "/multipleControls": "pages/multipleControls.html",
+  "/multipleControlsIndicators": "pages/multipleControlsIndicators.html",
+  "/multipleControlsLessIndicators": "pages/multipleControlsLessIndicators.html",
+  "/multipleIndicators": "pages/multipleIndicators.html",
+  "/multipleLessIndicators": "pages/multipleLessIndicators.html",
+  "/playground": "pages/playground.html",
+  "/single": "pages/single.html",
+  "/singleControls": "pages/singleControls.html",
+  "/singleControlsImageIndicators": "pages/singleControlsImageIndicators.html",
+  "/singleControlsIndicators": "pages/singleControlsIndicators.html",
+  "/singleImageIndicators": "pages/singleImageIndicators.html",
+  "/singleIndicators": "pages/singleIndicators.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
