@@ -37,7 +37,7 @@ export default function Home() {
                   Properties being passed down as arguments to children
                   components (which are required properties for them){" "}
                   <span className="text-muted small">
-                    NOTE: don't forget to mention alternative way for type
+                    NOTE: don&apos;t forget to mention alternative way for type
                     narrowing.
                   </span>
                 </li>
