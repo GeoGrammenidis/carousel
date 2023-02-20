@@ -1,5 +1,6 @@
 {
   "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.html",
   "/multiple": "pages/multiple.html",
@@ -15,6 +16,5 @@
   "/singleControlsIndicators": "pages/singleControlsIndicators.html",
   "/singleImageIndicators": "pages/singleImageIndicators.html",
   "/singleIndicators": "pages/singleIndicators.html",
-  "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }
