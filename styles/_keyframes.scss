@@ -1,0 +1,19 @@
+@keyframes opacityAnimationCarousel {
+  0% {
+    transform: var(--carousel-temp-transform);
+    opacity: 1;
+  }
+  100% {
+    transform: var(--carousel-temp-transform);
+    opacity: 0;
+  }
+}
+
+@keyframes indicatorsAnimationCarousel {
+  0% {
+    left: var(--carousel-temp-indicators-starting);
+  }
+  100% {
+    left: var(--carousel-temp-indicators-ending);
+  }
+}

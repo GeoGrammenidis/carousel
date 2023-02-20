@@ -1,0 +1,59 @@
+@mixin curtain(
+  $curtain-bg: #000,
+  $curtain-opacity: 0.5,
+  $curtains-parent-position: relative,
+  $curtain-z-index: false,
+  $curtain-border-radius: false
+) {
+  position: $curtains-parent-position;
+  &:before {
+    content: "";
+    background: $curtain-bg;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: $curtain-opacity;
+    transition: 0.35s opacity;
+    @if ($curtain-z-index) {
+      z-index: $curtain-z-index;
+    }
+    @if ($curtain-border-radius) {
+      border-radius: $curtain-border-radius;
+    }
+  }
+}
+
+@mixin svg-circle(
+  $wrapper-width: 4.5rem,
+  $wrapper-color: tint-color($primary, 92%),
+  $svg-width: 2.25rem,
+  $svg-color: $primary
+) {
+  &-svg-wrapper {
+    position: relative;
+    width: $wrapper-width;
+    height: $wrapper-width;
+    flex-shrink: 0;
+    border-radius: 50%;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      border-radius: 50%;
+      background-color: $wrapper-color;
+    }
+  }
+  &-svg {
+    fill: $svg-color;
+    width: $svg-width;
+    position: absolute;
+    top: calc($wrapper-width / 2);
+    left: calc($wrapper-width / 2);
+    transform: translate(-50%, -50%);
+  }
+}
